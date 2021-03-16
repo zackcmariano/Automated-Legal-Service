@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:seashell;
+}
+
+.header .logo {
+    max-height: 65px;
+}
+
+.header .title-group{
+    padding-left: 15px;
+}
+
+.titulos {
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+}

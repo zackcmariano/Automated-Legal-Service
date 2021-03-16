@@ -1,0 +1,46 @@
+<mat-card>
+    <mat-card-title>Novo Cliente</mat-card-title>
+    <form>
+        <mat-form-field class="Nome">
+            <input matInput placeholder="Nome Cliente" [(ngModel)]="cliente.name" name="name">
+        </mat-form-field>
+        <mat-form-field class="advogado">
+            <input matInput placeholder="Advogado" [(ngModel)]="cliente.adv" name="adv">
+        </mat-form-field>
+        <mat-form-field class="atendimento">
+            <input matInput placeholder="Atendimento" [(ngModel)]="cliente.atend" name="atend">
+        </mat-form-field>
+    </form>
+<button mat-raised-button (click)="createProduct()" color="primary">
+    Cadastrar
+</button>
+
+<button mat-raised-button (click)="cancel()">
+    Cancelar
+</button>
+<div>
+    <p class="escolha">
+        Escolha um dos atendimentos a seguir :
+    </p>
+    <ul>
+        <li class="lis">APOSENTADORIA POR IDADE :
+            <ul class="uls">
+                Benefício concedido aos segurados do INSS que atingiram determinada faixa etária.<br>
+                Para quem começou a trabalhar antes da Reforma, é necessário cumprir 65 anos se<br>
+                homem e 60 anos se mulher.<br>
+            </ul>
+        </li>
+        <li class="lis">APOSENTADORIA POR INCAPACIDADE PERMANENTE :
+            <ul class="uls">
+                Também conhecida como aposentadoria por invalidez, ela visa substituir a remuneração <br>do segurado que está total e definitivamente incapacitado para o exercício de atividade <br>que lhe garanta sobrevivência.
+            </ul>
+        </li>
+        <li class="lis">APOSENTADORIA DO PROFESSOR :
+            <ul class="uls">
+                Os benefícios da aposentadoria do professor são válidos para os professores de ensino <br>da rede infantil, fundamental e médio das redes públicas ou privadas de ensino. 
+            </ul>
+        </li>
+    </ul>
+
+</div>
+</mat-card>

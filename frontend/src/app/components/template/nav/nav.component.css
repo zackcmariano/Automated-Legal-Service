@@ -1,0 +1,19 @@
+.sidenav {
+    background-color: #A52A2A;
+    width: 130px;
+}
+
+.sidenav a {
+    color: #FFF;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+.sidenav i {
+    padding-right: 10px;
+}
+
+.content {
+    padding: 16px;
+    background-color: #575050;
+}

@@ -1,0 +1,26 @@
+<mat-card>
+    <mat-card-title>Alterar Dados</mat-card-title>
+    <form>
+        <mat-form-field class="nome">
+            <input matInput placeholder="Nome" [(ngModel)]="cliente.name" name="name">
+        </mat-form-field>
+        <mat-form-field class="advogado">
+            <input matInput placeholder="Advogado" [(ngModel)]="cliente.adv" name="Advogado">
+        </mat-form-field>
+        <mat-form-field class="atendimento">
+            <input matInput placeholder="Atendimento" [(ngModel)]="cliente.atend" name="atend">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="updateProduct()" color="primary">
+        Atualizar
+    </button>
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>
+<div class="textoupd">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, excepturi, ipsam explicabo cumque sit cum aperiam autem ratione magni <br>reprehenderit sunt est beatae consequatur! Possimus at minima excepturi nesciunt necessitatibus.
+    Lorem ipsum dolor, sit amet consec<br>tetur adipisicing elit. Veniam ipsum dolorum rerum, error quos sit hic omnis dolor numquam culpa, accusamus tempore rem laborum eo <br>fuga optio sapiente odit temporibus!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sed odit asperiores et eligendi, <br>sequi aspernatur ex vero ullam incidunt hic officia similique animi doloremque quas quod tempora enim natus? sit amet consectetur</p>
+    <p class="advnome">Dr. Michely Cavalcante Silva</p>
+</div>

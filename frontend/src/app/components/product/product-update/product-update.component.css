@@ -1,0 +1,33 @@
+form {
+    display: flex;
+    margin-top: 30px;
+}
+
+.nome {
+    margin-left: 0px;
+}
+
+.advogado {
+    margin-left: 50px;
+}
+
+.atendimento {
+    margin-left: 50px;
+}
+
+button {
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.textoupd {
+    margin-top: 80px;
+    margin-left: 160px;
+}
+
+.advnome {
+    margin-top: 52px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    font-size: 1.1rem;
+}
